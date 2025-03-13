@@ -1,5 +1,6 @@
-import React from "https://esm.sh/react"
-import ReactDOM from "https://esm.sh/react-dom/client"
+const { useState } = React;
+const { createRoot } = ReactDOM;
+
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
 function App() {
